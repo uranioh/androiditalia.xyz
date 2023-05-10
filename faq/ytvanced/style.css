@@ -1,0 +1,19 @@
+ol li, ul li {
+    margin-bottom: 0.5em;
+}
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+ol li:before {
+  color: var(--ctp-latte-subtext1);
+  font-weight: bold;
+  content: counter(list) ".";
+  left: -32px;
+  position: absolute;
+  text-align: right;
+  width: 26px;
+}
