@@ -9,11 +9,11 @@ ol li {
 }
 
 ol li:before {
-  color: var(--ctp-latte-subtext1);
-  font-weight: bold;
-  content: counter(list) ".";
-  left: -32px;
-  position: absolute;
-  text-align: right;
-  width: 26px;
+    color: var(--ctp-latte-subtext1);
+    font-weight: bold;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
 }
