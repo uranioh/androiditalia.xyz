@@ -35,3 +35,8 @@ footer > div {
     align-items: center;
     gap: 5px;
 }
+
+footer > div > a {
+    text-decoration: none;
+    color: black;
+}
