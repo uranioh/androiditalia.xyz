@@ -2,7 +2,8 @@ header {
     margin-bottom: 2em;
 }
 
-#rules, #rules > div {
+#rules,
+#rules > div {
     display: flex;
     flex-direction: column;
 }
@@ -16,5 +17,5 @@ header {
 }
 
 .rDescription {
-    color: var(--ctp-latte-text)
+    color: var(--ctp-latte-text);
 }

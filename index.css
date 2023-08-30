@@ -6,7 +6,7 @@ body {
     justify-content: center;
 }
 header {
-/*    center */
+    /*    center */
     margin: 0 auto;
     padding-bottom: 30px;
 }
@@ -38,7 +38,7 @@ main {
 .button {
     display: flex;
 
-    background-color: #4CAF50; /* Green */
+    background-color: #4caf50; /* Green */
 
     color: white;
 
@@ -55,7 +55,6 @@ main {
     align-items: center;
 }
 
-
 i {
     font-size: 20px;
     margin-left: 15px;
@@ -67,7 +66,7 @@ i {
     text-align: center;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
