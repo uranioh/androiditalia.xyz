@@ -9,7 +9,7 @@ header {
 }
 
 #rules {
-    gap: 2em;
+    gap: 1em;
 }
 
 .rTitle {
@@ -18,4 +18,10 @@ header {
 
 .rDescription {
     color: var(--ctp-latte-text);
+}
+
+.rBox {
+    border: 2px solid var(--ctp-latte-text);
+    border-radius: 10px;
+    padding: 1em;
 }
