@@ -1,0 +1,111 @@
+@import "catppuccin.css";
+
+body {
+    max-width: max-content;
+    align-content: center;
+    justify-content: center;
+}
+header {
+    /*    center */
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+footer > div {
+    justify-content: center;
+}
+
+main {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 5px solid var(--ctp-latte-subtext1);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+@media (max-width: 400px) {
+    main {
+        width: inherit;
+    }
+    body {
+        max-width: 800px;
+    }
+}
+
+.button {
+    display: flex;
+
+    background-color: #4caf50; /* Green */
+
+    color: white;
+
+    padding: 10px 0;
+    text-decoration: none;
+
+    font-size: 16px;
+    border-radius: 10px;
+
+    width: 100%;
+
+    transition: 0.5s;
+
+    align-items: center;
+}
+
+i {
+    font-size: 20px;
+    margin-left: 15px;
+    float: left;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#button_telegram {
+    background-color: #0088cc;
+}
+
+#button_telegram:hover {
+    background-color: #0077bb;
+}
+
+#button_rules {
+    background-color: var(--ctp-latte-maroon);
+}
+
+#button_rules:hover {
+    background-color: #a2313b;
+}
+
+#button_nohello {
+    background-color: var(--ctp-latte-yellow);
+}
+
+#button_nohello:hover {
+    background-color: #a86d16;
+}
+
+#button_faq {
+    background-color: var(--ctp-latte-green);
+}
+
+#button_faq:hover {
+    background-color: #4b7a2f;
+}
+
+#button_devices {
+    background-color: var(--ctp-latte-mauve);
+}
+
+#button_devices:hover {
+    background-color: #7a4b7a;
+}
